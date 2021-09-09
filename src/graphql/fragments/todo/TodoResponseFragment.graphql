@@ -1,0 +1,12 @@
+fragment TodoResponseFragment on TodoResponse {
+  errors {
+    field
+    message
+  }
+  message
+  todos {
+    id
+    task
+    complete
+  }
+}

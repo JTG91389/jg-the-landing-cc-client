@@ -1,0 +1,5 @@
+mutation CreateTodo($params: TodoCreateInput!) {
+  createTodo(params: $params) {
+    ...TodoResponseFragment
+  }
+}

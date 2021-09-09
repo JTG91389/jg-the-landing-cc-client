@@ -1,0 +1,5 @@
+query Mine {
+  mine {
+    ...TodoResponseFragment
+  }
+}
